@@ -1,2 +1,7 @@
-<overseer-clone-nx-welcome></overseer-clone-nx-welcome>
-<router-outlet></router-outlet>
+<div class="grid grid-cols-1 md:grid-cols-12">
+  <overseer-clone-sidebar class="md:col-span-3"></overseer-clone-sidebar>
+  <main class="col-span-full md:col-span-9 relative">
+    <overseer-clone-searchbar></overseer-clone-searchbar>
+    <router-outlet></router-outlet>
+  </main>
+</div>
