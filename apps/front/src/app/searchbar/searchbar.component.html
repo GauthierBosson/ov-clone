@@ -1,0 +1,17 @@
+<header class="sticky z-10 inset-0 flex p-4 items-center gap-4 bg-white">
+  <div class="block md:hidden">
+    <button (click)="toggleMenu()">
+      menu
+    </button>
+  </div>
+  <div class="grow">
+    <input class="px-4 py-2 rounded-full w-full border border-black" type="text">
+  </div>
+  <div>
+    <button class="border bordel-black w-[45px] h-[45px] rounded-full">GB</button>
+  </div>
+</header>
+
+<div id="overlay" class="hidden absolute z-20 inset-0 bg-[rgba(0,0,0,0.1)]">
+  <overseer-clone-sidebar class="col-span-5"></overseer-clone-sidebar>
+</div>
